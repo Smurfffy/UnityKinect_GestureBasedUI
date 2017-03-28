@@ -1,10 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\myScripts\Rotator.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Microsoft\Kinect\VisualGestureBuilder\Gesture.cs">
     <Files>
-      <File FileName="Assets\myScripts\PlayerController.cs" Line="20" Column="34" />
-      <File FileName="Assets\myScripts\CameraController.cs" Line="17" Column="59" />
-      <File FileName="Assets\myScripts\Rotator.cs" Line="9" Column="64" />
+      <File FileName="Assets\myScripts\PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\myScripts\CameraController.cs" Line="1" Column="1" />
+      <File FileName="Assets\myScripts\Rotator.cs" Line="1" Column="1" />
+      <File FileName="Assets\myScripts\Turning.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Microsoft\Kinect\VisualGestureBuilder\Gesture.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Microsoft\Kinect\VisualGestureBuilder\VisualGestureBuilderDatabase.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -46,9 +46,106 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\KinectPackage\CameraIntrinsics.cs" />
+     <Compile Include="Assets\KinectPackage\CollectionMap.cs" />
+     <Compile Include="Assets\KinectPackage\EventPump.cs" />
+     <Compile Include="Assets\KinectPackage\ExceptionHelper.cs" />
+     <Compile Include="Assets\KinectPackage\INativeWrapper.cs" />
+     <Compile Include="Assets\KinectPackage\KinectBuffer.cs" />
+     <Compile Include="Assets\KinectPackage\KinectSpecialCases.cs" />
+     <Compile Include="Assets\KinectPackage\KinectVisualGestureBuilderSpecialCases.cs" />
+     <Compile Include="Assets\KinectPackage\NativeObjectCache.cs" />
+     <Compile Include="Assets\KinectPackage\NativeWrapper.cs" />
+     <Compile Include="Assets\KinectPackage\SmartGCHandle.cs" />
+     <Compile Include="Assets\KinectPackage\ThreadSafeDictionary.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Data\PropertyChangedEventArgs.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\Activity.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\Appearance.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\AudioBeam.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\AudioBeamFrame.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\AudioBeamFrameArrivedEventArgs.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\AudioBeamFrameList.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\AudioBeamFrameReader.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\AudioBeamFrameReference.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\AudioBeamMode.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\AudioBeamSubFrame.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\AudioBodyCorrelation.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\AudioSource.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\Body.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\BodyFrame.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\BodyFrameArrivedEventArgs.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\BodyFrameReader.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\BodyFrameReference.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\BodyFrameSource.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\BodyIndexFrame.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\BodyIndexFrameArrivedEventArgs.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\BodyIndexFrameReader.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\BodyIndexFrameReference.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\BodyIndexFrameSource.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\CameraSpacePoint.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\ColorCameraSettings.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\ColorFrame.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\ColorFrameArrivedEventArgs.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\ColorFrameReader.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\ColorFrameReference.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\ColorFrameSource.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\ColorImageFormat.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\ColorSpacePoint.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\CoordinateMapper.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\CoordinateMappingChangedEventArgs.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\DepthFrame.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\DepthFrameArrivedEventArgs.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\DepthFrameReader.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\DepthFrameReference.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\DepthFrameSource.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\DepthSpacePoint.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\DetectionResult.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\Expression.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\FrameCapturedEventArgs.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\FrameCapturedStatus.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\FrameDescription.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\FrameEdges.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\FrameSourceTypes.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\HandState.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\InfraredFrame.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\InfraredFrameArrivedEventArgs.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\InfraredFrameReader.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\InfraredFrameReference.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\InfraredFrameSource.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\IsAvailableChangedEventArgs.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\Joint.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\JointOrientation.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\JointType.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\KinectAudioCalibrationState.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\KinectCapabilities.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\KinectSensor.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\KinectUnityAddinUtils.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\LongExposureInfraredFrame.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\LongExposureInfraredFrameArrivedEventArgs.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\LongExposureInfraredFrameReader.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\LongExposureInfraredFrameReference.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\LongExposureInfraredFrameSource.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\MultiSourceFrame.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\MultiSourceFrameArrivedEventArgs.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\MultiSourceFrameReader.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\MultiSourceFrameReference.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\TrackingConfidence.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\TrackingState.cs" />
+     <Compile Include="Assets\KinectPackage\Windows\Kinect\Vector4.cs" />
+     <Compile Include="Assets\KinectView\Scripts\BodySourceManager.cs" />
+     <Compile Include="Assets\KinectView\Scripts\BodySourceView.cs" />
+     <Compile Include="Assets\KinectView\Scripts\ColorSourceManager.cs" />
+     <Compile Include="Assets\KinectView\Scripts\ColorSourceView.cs" />
+     <Compile Include="Assets\KinectView\Scripts\DepthSourceManager.cs" />
+     <Compile Include="Assets\KinectView\Scripts\DepthSourceView.cs" />
+     <Compile Include="Assets\KinectView\Scripts\DisableOnStart.cs" />
+     <Compile Include="Assets\KinectView\Scripts\InfraredSourceManager.cs" />
+     <Compile Include="Assets\KinectView\Scripts\InfraredSourceView.cs" />
+     <Compile Include="Assets\KinectView\Scripts\MultiSourceManager.cs" />
      <Compile Include="Assets\myScripts\CameraController.cs" />
      <Compile Include="Assets\myScripts\PlayerController.cs" />
      <Compile Include="Assets\myScripts\Rotator.cs" />
+     <Compile Include="Assets\myScripts\Turning.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -67,6 +164,10 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{4EAE2ACE-E38C-530F-4663-31CE8C49D3FA}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
