@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityKinectMaze", "Assembly-CSharp-firstpass.csproj", "{4C38ABEC-EE2F-BB98-59ED-1C463A3BF5B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityKinectMaze", "Assembly-CSharp.csproj", "{AD5107C7-C42E-66F7-4227-3C5191B5E3DD}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityKinectMaze", "Assembly-CSharp-Editor-firstpass.csproj", "{7F7535E9-7EA5-3C13-A646-AD7A1D8E9315}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{4C38ABEC-EE2F-BB98-59ED-1C463A3BF5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C38ABEC-EE2F-BB98-59ED-1C463A3BF5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C38ABEC-EE2F-BB98-59ED-1C463A3BF5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD5107C7-C42E-66F7-4227-3C5191B5E3DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5107C7-C42E-66F7-4227-3C5191B5E3DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5107C7-C42E-66F7-4227-3C5191B5E3DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5107C7-C42E-66F7-4227-3C5191B5E3DD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7F7535E9-7EA5-3C13-A646-AD7A1D8E9315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7F7535E9-7EA5-3C13-A646-AD7A1D8E9315}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F7535E9-7EA5-3C13-A646-AD7A1D8E9315}.Release|Any CPU.ActiveCfg = Release|Any CPU
