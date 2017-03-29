@@ -48,6 +48,16 @@
   <ItemGroup>
      <Compile Include="Assets\Gestrue\GestureDetector.cs" />
      <Compile Include="Assets\Gestrue\KinectManager.cs" />
+     <Compile Include="Assets\KinectView\Scripts\BodySourceManager.cs" />
+     <Compile Include="Assets\KinectView\Scripts\BodySourceView.cs" />
+     <Compile Include="Assets\KinectView\Scripts\ColorSourceManager.cs" />
+     <Compile Include="Assets\KinectView\Scripts\ColorSourceView.cs" />
+     <Compile Include="Assets\KinectView\Scripts\DepthSourceManager.cs" />
+     <Compile Include="Assets\KinectView\Scripts\DepthSourceView.cs" />
+     <Compile Include="Assets\KinectView\Scripts\DisableOnStart.cs" />
+     <Compile Include="Assets\KinectView\Scripts\InfraredSourceManager.cs" />
+     <Compile Include="Assets\KinectView\Scripts\InfraredSourceView.cs" />
+     <Compile Include="Assets\KinectView\Scripts\MultiSourceManager.cs" />
      <Compile Include="Assets\Scripts\EnemyMover.cs" />
      <Compile Include="Assets\Scripts\MoveForward.cs" />
      <Compile Include="Assets\Scripts\Rotator.cs" />
