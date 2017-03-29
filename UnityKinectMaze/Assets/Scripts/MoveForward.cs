@@ -34,6 +34,10 @@ public class MoveForward : MonoBehaviour {
 				winText.text = "You win!";
 			}
 		}
+
+		if (other.gameObject.CompareTag ("Enemy")) {
+			transform.position = new Vector3 (0.0f, 0.5f, 0.0f);
+		}
 	}
 
 	void setCountText(){

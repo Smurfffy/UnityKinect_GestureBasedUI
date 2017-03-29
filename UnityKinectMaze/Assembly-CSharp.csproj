@@ -48,7 +48,9 @@
   <ItemGroup>
      <Compile Include="Assets\Gestrue\GestureDetector.cs" />
      <Compile Include="Assets\Gestrue\KinectManager.cs" />
+     <Compile Include="Assets\Scripts\EnemyMover.cs" />
      <Compile Include="Assets\Scripts\MoveForward.cs" />
+     <Compile Include="Assets\Scripts\Rotator.cs" />
      <Compile Include="Assets\Scripts\Turning.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
