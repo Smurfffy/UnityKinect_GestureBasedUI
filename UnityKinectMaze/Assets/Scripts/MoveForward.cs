@@ -38,6 +38,10 @@ public class MoveForward : MonoBehaviour {
 		if (other.gameObject.CompareTag ("Enemy")) {
 			transform.position = new Vector3 (0.0f, 0.5f, 0.0f);
 		}
+
+		if (other.gameObject.tag == "Portal") {
+			Application.LoadLevel ("WinScene");
+		}
 	}
 
 	void setCountText(){
