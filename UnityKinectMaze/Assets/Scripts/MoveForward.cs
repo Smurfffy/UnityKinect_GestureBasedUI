@@ -8,15 +8,21 @@ public class MoveForward : MonoBehaviour {
 	public float forwardspeed = 2.0f;
 	public Text countText;
 	public Text winText;
+	public Text livesText;
+	private Vector3 resetPosition;
+
 
 	private Rigidbody rb;
 	private int count;
+	private int lives;
 
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
 		count = 0;
+		lives = 3;
 		setCountText ();
+		setLivesText ();
 		winText.text = "";
 	}
 	
@@ -30,13 +36,12 @@ public class MoveForward : MonoBehaviour {
 			other.gameObject.SetActive (false);
 			count = count + 1;
 			setCountText ();
-			if (count >= 6) {
-				winText.text = "You win!";
-			}
 		}
 
 		if (other.gameObject.CompareTag ("Enemy")) {
-			transform.position = new Vector3 (0.0f, 0.5f, 0.0f);
+			lives = lives - 1;
+			setLivesText ();
+			resetPlayer ();
 		}
 
 		if (other.gameObject.tag == "Portal") {
@@ -44,7 +49,21 @@ public class MoveForward : MonoBehaviour {
 		}
 	}
 
+	void resetPlayer(){
+
+		if (lives <= 0) {
+			Application.LoadLevel ("gameOverScene");
+		} else {
+			transform.position = resetPosition;
+			transform.position = new Vector3 (0.0f, 0.5f, 0.0f);
+		}
+	}
+
 	void setCountText(){
-		countText.text = "Count: " + count.ToString ();
+		countText.text = "Score: " + count.ToString ();
+	}
+
+	void setLivesText() {
+		livesText.text = "Lives: " + lives.ToString();
 	}
 }

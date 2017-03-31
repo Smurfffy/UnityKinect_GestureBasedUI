@@ -60,6 +60,7 @@
      <Compile Include="Assets\KinectView\Scripts\MultiSourceManager.cs" />
      <Compile Include="Assets\Scripts\EnemyMover.cs" />
      <Compile Include="Assets\Scripts\MoveForward.cs" />
+     <Compile Include="Assets\Scripts\RestartButtonController.cs" />
      <Compile Include="Assets\Scripts\Rotator.cs" />
      <Compile Include="Assets\Scripts\Turning.cs" />
  <Reference Include="UnityEngine.UI">
